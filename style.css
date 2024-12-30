@@ -1,0 +1,1771 @@
+/* Typical Mobile devices */
+@media  (min-width: 320px) and (max-width: 480px){
+  header{
+    /* border: solid blue; */
+    height: 8vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    /* border: solid blue; */
+    height: 6vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    /* border: solid blue; */
+    height: 5vh;
+    width: 60%;
+    word-spacing: 12px;
+  }
+  .dropdown_logo{
+    /* border: solid blue; */
+    height: 5vh;
+    margin-left: 40%;
+    
+  
+  }
+  .sidebar{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    height: 50vh;
+    display: none;
+    width:300px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 37, 61, 0.682);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .sidebaritems1{
+    margin-top: 15%;
+    margin-left: 15px;
+  }
+  .sidebaritems{
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 15px;
+  }
+  .hrside{
+    width: 100%;
+    border: 1px solid white;
+  }
+  #sidebarclose{
+    word-spacing: 10px;
+    cursor: pointer;
+  }
+  #sidebarclose:hover{
+    color: rgb(106, 221, 68);
+  }
+  .navlists{
+    display: none;
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 1010vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 50%;
+    text-align: center;
+    height: 49vh;
+  }
+  .introtext{
+    /* border: solid red; */
+    margin-top: 10%;
+    font-size: 18px;
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 6%;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 170vh;
+   
+    
+  }
+  .aboutme{
+    font-size: 40px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 80%;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 50vh;
+    margin: 50px;
+    margin-top: 5%;
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 50vh;
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 100vh;
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 30vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 5px;
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:10%
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projects{
+    /* border: solid red; */
+    height: 340vh;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 320vh;
+    display: grid;
+    /* width: 114rem; */
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-wrap: wrap;
+  
+  }
+  .project1{
+    /* border: solid green; */
+    height: 75vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 35vh;
+  }
+  .contactform{
+    /* border: solid red; */
+    height: 150vh;
+    margin-top: 60%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65 vh;
+    border-radius: 10px;
+    /* border: solid green; */
+    background-color: rgba(129, 115, 115, 0.254);
+  }
+  input{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+  }
+  .contactbtn{
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    height: 30vh;
+  }
+  footer{
+    /* border: solid darkorange; */
+    height: 60vh;
+    margin-top: -20px;
+    background-color: black;
+  }
+  .socialslogo{
+    /* border: solid white; */
+    height: 5vh;
+    margin-top: 30px;
+    display: flex;
+    margin: 10px;;
+  }
+  .logocontainer{
+    /* border: solid white; */
+    height: 4vh;
+    width: 4vh;
+    margin: 2px;
+  }
+  .logoimg{
+    width: 100%;
+    height: 100%;
+  }
+  .footernav{
+    /* border: solid white; */
+    height: 5vh;
+    margin: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+  }
+  .footertxt{
+    /* border: solid white; */
+    height: 25vh; 
+    margin: 10px;
+  }
+  hr{
+    width: 90%;
+    border: 1px solid grey;
+  }
+ 
+  
+}
+
+
+/*  For mobile (landscape)  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body{
+    background-size: 500%;
+  }
+  header{
+    /* border: solid red; */
+    height: 6vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    /* border: solid blue; */
+    height: 5.5vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    /* border: solid blue; */
+    height: 4vh;
+    width: 50%;
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    word-spacing: 12px;
+    margin-top: 5px;
+  }
+  .dropdown_logo{
+    /* border: solid blue; */
+    height: 5vh;
+    margin-left: 50%;
+    width: 13%;
+  
+  }
+  .navlists{
+    display: none;
+  }
+  .sidebar{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    height: 38vh;
+    display: none;
+    width:300px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 37, 61, 0.682);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .sidebaritems1{
+    margin-top: 15%;
+    margin-left: 15px;
+  }
+  .sidebaritems{
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 15px;
+  }
+  .hrside{
+    width: 100%;
+    border: 1px solid white;
+  }
+  #sidebarclose{
+    word-spacing: 10px;
+    cursor: pointer;
+  }
+  #sidebarclose:hover{
+    color: rgb(106, 221, 68);
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 750vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 50%;
+    text-align: center;
+    height: 30vh;
+  }
+  .introtext{
+    /* border: solid red; */
+    margin-top: 10%;
+    font-size: 18px;
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 6%;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 120vh;
+   
+    
+  }
+  .aboutme{
+    font-size: 40px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 80%;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 50vh;
+    margin: 50px;
+    margin-top: 5%;
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 50vh;
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 100vh;
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 5px;
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:10%
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projects{
+    /* border: solid red; */
+    height: 230vh;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 210vh;
+    display: grid;
+    /* width: 114rem; */
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-wrap: wrap;
+  
+  }
+  .project1{
+    border: none;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 25vh;
+  }
+  .contactform{
+    /* border: solid red; */
+    height: 100vh;
+    margin-top: 60%;
+
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65 vh;
+    border-radius: 10px;
+    /* border: solid green; */
+    background-color: rgba(129, 115, 115, 0.254);
+  }
+  input{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+  }
+  .contactbtn{
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    height: 30vh;
+  }
+  footer{
+    /* border: solid darkorange; */
+    height: 40vh;
+    margin-top: -20px;
+    background-color: black;
+  }
+  .socialslogo{
+    /* border: solid white; */
+    height: 5vh;
+    margin-top: 30px;
+    display: flex;
+    margin: 10px;;
+  }
+  .logocontainer{
+    /* border: solid white; */
+    height: 4vh;
+    width: 4vh;
+    margin: 2px;
+  }
+  .logoimg{
+    width: 100%;
+    height: 100%;
+  }
+  .footernav{
+    /* border: solid white; */
+    height: 3vh;
+    margin: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+  }
+  .footertxt{
+    /* border: solid white; */
+    height: 16vh; 
+    margin: 10px;
+  }
+  hr{
+    width: 90%;
+   border: 1px solid grey;
+  }
+  
+}
+
+/*       For tablet       */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  
+  header{
+    border: solid black;
+    height: 8vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    border: solid blue;
+    height: 6vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    border: solid blue;
+    height: 5vh;
+    width: 40%;
+    font-size: 25px;
+    word-spacing: 12px;
+  }
+  .dropdown_logo{
+    border: solid blue;
+    height:5vh;
+    margin-left: 52%;
+
+
+  }
+  .navlists{
+    display: none;
+  }
+  .sidebar{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    height: 45vh;
+    display: none;
+    width:450px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 37, 61, 0.682);
+    box-shadow:10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .sidebaritems1{
+    margin-top: 15%;
+    margin-left: 15px;
+  }
+  .sidebaritems{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 15px;
+  }
+  .hrside{
+    width: 100%;
+    border: 1px solid white;
+  }
+  #sidebarclose{
+    word-spacing: 10px;
+    cursor: pointer;
+  }
+  #sidebarclose:hover{
+    color: rgb(106, 221, 68);
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 660vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 25%;
+    text-align: center;
+    height: 32vh;
+  }
+  .introname{
+    font-size: 42px;
+  }
+  .introtext{
+    /* border: solid red; */
+    margin-top: 8%;
+    font-size: 23px;
+    
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 90vh;
+    align-items: center;
+    
+  }
+  .aboutme{
+    font-size: 35px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 70%;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 50vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 30vh;
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 100vh;
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 12vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+    
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:8%;
+    width: 60%;
+    margin-left: 15%;
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projects{
+    /* border: solid red; */
+    height: 130vh;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 110vh;
+    display: grid;
+    /* width: 114rem; */
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 3%;
+    margin-right: 3%;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+  
+  }
+  .project1{
+    border: solid none;
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 25vh;
+  }
+     .contactform{
+      /* border: solid red; */
+      height: 110vh;
+      margin-top: 40%;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 65 vh;
+      border-radius: 10px;
+      /* border: solid green; */
+      background-color: rgba(129, 115, 115, 0.254);
+    }
+    input{
+      padding: 20px;
+      margin: 30px;
+      border-radius: 10px;
+      width: 70%;
+      border: none;
+      background-color: white;
+      font-size: 17px;
+    }
+    .contactbtn{
+      padding: 15px;
+      margin-top: 10%;
+      margin-bottom: 5%;
+      border-radius: 4px;
+      width: 70%;
+      font-size: 20px;
+      font-weight: bolder;
+      background-color: rgb(113, 113, 219);
+      color: white;
+      border: none;
+    }
+    textarea{
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+      width: 70%;
+      border: none;
+      background-color: white;
+      font-size: 17px;
+      height: 30vh;
+    }
+    footer{
+      /* border: solid darkorange; */
+      height: 40vh;
+      margin-top: -20px;
+      background-color: black;
+    }
+    .socialslogo{
+      /* border: solid white; */
+      height: 5vh;
+      margin-top: 30px;
+      display: flex;
+      margin: 10px;;
+    }
+    .logocontainer{
+      /* border: solid white; */
+      height: 4vh;
+      width: 4vh;
+      margin: 2px;
+    }
+    .logoimg{
+      width: 100%;
+      height: 100%;
+    }
+    .footernav{
+      /* border: solid white; */
+      height: 3vh;
+      margin: 10px;
+      word-spacing: 10px;
+      font-size: 18px;
+    }
+    .footertxt{
+      /* border: solid white; */
+      height: 16vh; 
+      margin: 10px;
+    }
+    hr{
+      width: 90%;
+     border: 1px solid grey;
+    }
+  
+}
+
+
+/*      For Small Desktop      */
+
+@media only screen and (min-width: 980px) and (max-width: 1023px){
+  header{
+    border: solid rgb(88, 198, 113);
+    height: 8vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    border: solid blue;
+    height: 6vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    border: solid blue;
+    height: 5vh;
+    font-size: 25px;
+    word-spacing: 12px;
+  }
+  .dropdown_logo{
+    border: solid blue;
+    height: 2vh;
+    display: none;
+  
+  }
+  .navitems{
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  
+  }
+  .navlists{
+    /* border: solid yellowgreen; */
+    margin: 5px;
+  }
+  .sidebar{
+    display: none;
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 630vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 25%;
+    text-align: center;
+    height: 32vh;
+  }
+  .introname{
+    font-size: 42px;
+  }
+  .introtext{
+    /* border: solid red; */
+    margin-top: 8%;
+    font-size: 23px;
+    
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 100vh;
+    
+    align-items: center;
+    
+  }
+  .aboutme{
+    font-size: 40px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 70%;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 50vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 0%;
+    
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 30vh;
+    font-size: 22px;
+    word-spacing: 2px;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 72vh;
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 12vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+    
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:6%;
+    width: 60%;
+    margin-left: 15%;
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projects{
+    /* border: solid red; */
+    height: 125vh;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 110vh;
+    display: grid;
+    /* width: 114rem; */
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 3%;
+    margin-right: 3%;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+  
+  }
+  .project1{
+    /* border: solid green; */
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 25vh;
+  }
+  .contactform{
+    /* border: solid red; */
+    height: 100vh;
+    margin-top: 40%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50 vh;
+    border-radius: 10px;
+    /* border: solid green; */
+    background-color: rgba(129, 115, 115, 0.254);
+  }
+  input{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+  }
+  .contactbtn{
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    height: 30vh;
+  }
+  footer{
+    /* border: solid darkorange; */
+    height: 40vh;
+    margin-top: -20%;
+    background-color: black;
+  }
+  .socialslogo{
+    /* border: solid white; */
+    height: 5vh;
+    margin-top: 30px;
+    display: flex;
+    margin: 10px;;
+  }
+  .logocontainer{
+    /* border: solid white; */
+    height: 4vh;
+    width: 4vh;
+    margin: 2px;
+  }
+  .logoimg{
+    width: 100%;
+    height: 100%;
+  }
+  .footernav{
+    /* border: solid white; */
+    height: 3vh;
+    margin: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+  }
+  .footertxt{
+    /* border: solid white; */
+    height: 16vh; 
+    margin: 10px;
+  }
+  hr{
+    width: 90%;
+   border: 1px solid grey;
+  }
+
+  
+
+}
+
+/*     For typical desktop    */
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+  header{
+    border: solid rgba(208, 50, 92, 0.771);
+    height: 8vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    border: solid blue;
+    height: 6vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    border: solid blue;
+    height: 5vh;
+    font-size: 25px;
+    word-spacing: 12px;
+  }
+  .dropdown_logo{
+    border: solid blue;
+    height: 2vh;
+    display: none;
+  
+  }
+  .navitems{
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  
+  }
+  .navlists{
+    /* border: solid yellowgreen; */
+    margin: 10px;
+   
+  }
+  .sidebar{
+    display: none;
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 750vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 25%;
+    text-align: center;
+    height: 32vh;
+  }
+  .introname{
+    font-size: 42px;
+  }
+  .introtext{
+    /* border: solid red; */
+    
+    margin-top: 4%;
+    font-size: 24px;
+    
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 18%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 60vh;
+    
+    
+    
+  }
+  .aboutmebox{
+    display: flex;
+    justify-content: space-around;
+  }
+  .aboutme{
+    font-size: 40px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 50%;
+    display: block;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 50vh;
+    width: 170%;
+    margin-left: 5% ;
+    margin-top: 3%;
+    
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 40vh;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-left: 5% ;
+    margin-top: 10%;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 100vh;
+    margin-top: 10%;
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 12vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+    
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:8%;
+    width: 60%;
+    margin-left: 15%;
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projects{
+    /* border: solid red; */
+    height: 230vh;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 212vh;
+    display: block;
+    /* width: 114rem; */
+    /* grid-gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 3%;
+    margin-right: 3%; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+  
+  }
+  .project1{
+    display: flex;
+    /* border: solid ; */
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+    margin: 2%;
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 35vh;
+    width: 100%;
+    align-self: center;
+  }
+  .projecttxt{
+    /* border: solid yellow; */
+    height: 25vh;
+    width: 100%;
+    align-self: center;
+  }
+  .contactform{
+    /* border: solid red; */
+    height: 130vh;
+    margin-top: 40%;
+  }
+  .contacthead{
+    font-size: 50px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65 vh;
+    border-radius: 10px;
+    /* border: solid green; */
+    background-color: rgba(129, 115, 115, 0.254);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  input{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+  }
+  .contactbtn{
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    border-radius: 4px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+  }
+  textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    height: 30vh;
+  }
+  footer{
+    /* border: solid darkorange; */
+    height: 40vh;
+    
+    background-color: black;
+  }
+  .socialslogo{
+    /* border: solid white; */
+    height: 5vh;
+    margin-top: 30px;
+    display: flex;
+    margin: 10px;;
+  }
+  .logocontainer{
+    /* border: solid white; */
+    height: 4vh;
+    width: 4vh;
+    margin: 2px;
+  }
+  .logoimg{
+    width: 100%;
+    height: 100%;
+  }
+  .footercontainer{
+    display: flex;
+  }
+  .footernav{
+    /* border: solid white; */
+    height: 3vh;
+    margin: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+    width: 40%;
+    text-align: start;
+  }
+  .footertxt{
+    /* border: solid white; */
+    height: 16vh; 
+    margin: 10px;
+    width: 60%;
+    
+  }
+  hr{
+    width: 90%;
+   border: 1px solid grey;
+  }
+}
+
+/* For large desktop */
+
+
+@media only screen and (min-width: 1200px){
+  header{
+    border: solid rgba(155, 214, 29, 0.771);
+    height: 8vh;
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgba(10, 10, 43, 0.995);
+  }
+  nav{
+    border: solid blue;
+    height: 6vh;
+    margin: 3px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .logo{
+    border: solid blue;
+    height: 5vh;
+    font-size: 25px;
+    word-spacing: 12px;
+  }
+  .dropdown_logo{
+    border: solid blue;
+    height: 2vh;
+    display: none;
+  
+  }
+  .navitems{
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+  
+  }
+  .navlists{
+    /* border: solid yellowgreen; */
+    margin: 10px;
+  }
+  .sidebar{
+    display: none;
+  }
+  body{
+    background-size:contain
+  }
+  .supercontainer{
+    /* border: solid white; */
+    height: 750vh;
+    margin: 20px;
+  }
+  .introcontainer{
+    /* border: solid red; */
+    margin-top: 12%;
+    text-align: center;
+    height: 35vh;
+  }
+  .introname{
+    font-size: 42px;
+  }
+  .introtext{
+    /* border: solid red; */
+    width: 50%;
+    margin-top: 2%;
+    font-size: 26px;
+    margin-left: 25%;
+    
+  }
+  .resumetbn{
+    padding: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 18%;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+   
+  }
+  .aboutmecontainer{
+    /* border: solid yellow; */
+    height: 80vh;
+    
+  }
+  .aboutmebox{
+    display: flex;
+    justify-content: space-around;
+  }
+  .aboutme{
+    font-size: 40px;
+    word-spacing: 12px;
+    text-align: center;
+    margin-top: 40%;
+  }
+  .imgcontainer{
+    /* border: solid green; */
+    height: 60vh;
+    width: 90%;
+    margin-left: 5% ;
+    margin-top: 3%;
+    
+  }
+  .propic{
+    width: 100%;
+    height: 100%;
+  }
+  .aboutmetxt{
+    /* border: solid grey; */
+    height: 40vh;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-left: 10% ;
+    margin-top: 10%;
+    
+
+  }
+  .skillshead{
+    font-size: 40px;
+  }
+  .skillscontainer{
+    /* border: solid blue; */
+    height: 60vh;
+    
+    
+  }
+  .skillsbox{
+    /* border: solid green; */
+    height: 12vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+  .skillssection{
+    display: flex;
+  }
+  .languages{
+    /* border: solid; */
+    padding: 11px;
+    font-size: 20px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 10px;
+    
+    
+  }
+  .equipimage{
+    /* border: solid green; */
+    height: 50vh;
+    margin-top:3%;
+    width: 40%;
+    margin-right: 5%;
+  
+  }
+  .equipimg{
+    height: 100%;
+    width: 100%;
+  }
+  .projectshead{
+    font-size: 40px;
+  }
+  .projectcard{
+    /* border: solid yellow; */
+    height: 220vh;
+    display: block;
+    /* width: 114rem; */
+    /* grid-gap: 1rem;
+    grid-template-columns: repeat(2, 2fr);
+    margin-left: 3%;
+    margin-right: 3%; */
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    align-items: center;
+  
+  }
+  .projects{
+    margin-top: 15%;
+  }
+    
+  
+  .project1{
+    display: flex;
+    /* border: solid green; */
+    height: 50vh;
+    border-radius: 8px;
+    background-color: rgba(6, 6, 23, 0.995);
+    margin: 2%;
+    width: 90%;
+    
+  }
+  .projectimg{
+    border: solid cyan;
+    height: 45vh;
+    width: 100%;
+    align-self: center;
+  }
+  .projecttxt{
+    /* border: solid yellow; */
+    height: 25vh;
+    width: 100%;
+    align-self: center;
+  }
+  .contacthead{
+    font-size: 40px;
+  }
+  .contactform{
+    /* border: solid red; */
+    height: 130vh;
+    margin-top: 40%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65 vh;
+    border-radius: 10px;
+    /* border: solid green; */
+    background-color: rgba(129, 115, 115, 0.254);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  input{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    
+    font-size: 17px;
+  }
+  .contactbtn{
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    border-radius: 4px;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(113, 113, 219);
+    color: white;
+    border: none;
+    
+  }
+  textarea{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    height: 30vh;
+  }
+  footer{
+    /* border: solid darkorange; */
+    height: 40vh;
+    margin-top: -20px;
+    background-color: black;
+  }
+  .socialslogo{
+    /* border: solid white; */
+    height: 5vh;
+    margin-top: 30px;
+    display: flex;
+    margin: 10px;
+    margin-left: 5%;
+  }
+  .logocontainer{
+    /* border: solid white; */
+    height: 4vh;
+    width: 4vh;
+    margin: 2px;
+    
+  }
+  .logoimg{
+    width: 100%;
+    height: 100%;
+  }
+  .footercontainer{
+    display: flex;
+  }
+  .footernav{
+    /* border: solid white; */
+    height: 3vh;
+    margin: 10px;
+    word-spacing: 10px;
+    font-size: 18px;
+    width: 50%;
+    text-align: start;
+     margin-left: 5%;
+  }
+  .footertxt{
+    /* border: solid white; */
+    height: 16vh; 
+    margin: 10px;
+    width: 30%;
+    margin-left: 5%;
+  }
+  hr{
+    width: 90%;
+   border: 1px solid grey;
+  }
+}
+
+
+
+
+
+body{
+  margin: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(13, 13, 54);
+  
+ color: white;
+  
+  /* height: 700vh; */
+}
+nav{
+  background-color: rgba(10, 10, 43, 0.995);
+  color: white;
+}
+.dropicon_img{
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  font-family: "Pacifico", cursive;
+}
+
+.skillshead,.projectshead,.contacthead{
+  text-align: center;
+}
+
+.projectbtn{
+  padding: 15px;
+  margin-top: 12%;
+  border-radius: 4px;
+  width: 40%;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: rgb(113, 113, 219);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+}
+input,textarea{
+  background-color: rgba(247, 230, 230, 0.837);
+}
+.navlists,.sidebaritems1,.sidebaritems,span{
+  cursor: pointer;
+}
+.navlists:hover,.sidebaritems1:hover,.sidebaritems:hover,span:hover{  
+  color: rgb(106, 221, 68);
+  text-decoration: underline;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(106, 221, 68);
+  text-decoration: underline;
+}
+
+.copyright{
+  text-align: center;
+}
+.resumetbn:hover{
+  transition: all 0.5s ease-in-out;
+  scale: 1.1;
+}
+.contactbtn:hover{
+  transition: all 0.5s ease-in-out;
+  scale: 1.1;
+}
+.projectbtn:hover{
+  transition: all 0.5s ease-in-out;
+  scale: 1.1;
+}
+.resumetbn,.contactbtn{
+  cursor: pointer;
+}
+.projecttxt{
+  margin:7px ;
+}
+.introcontainer,.aboutmecontainer,.skillscontainer,.projects,.contactform{
+  
+  animation: ease-in-out 5s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry;
+  
+}
+@keyframes ease-in-out {
+  from{
+    scale:.8; opacity: 0;
+  }
+ to{
+    scale:1; opacity: 1;
+  }
+}
