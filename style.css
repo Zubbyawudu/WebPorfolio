@@ -18,19 +18,24 @@
   .logo {
     /* border: solid blue; */
     height: 5vh;
-    width: 60%;
-    word-spacing: 12px;
+    width: 10%;
+    margin-top: 5px;
+    display: flex;
+  }
+
+  .logodesc {
+    display: none;
   }
   .dropdown_logo {
     /* border: solid blue; */
     height: 5vh;
-    margin-left: 40%;
+    margin-left: 80%;
   }
   .sidebar {
     position: fixed;
     top: 0px;
     right: 0px;
-    height: 50vh;
+    height: 65vh;
     display: none;
     width: 300px;
     backdrop-filter: blur(10px);
