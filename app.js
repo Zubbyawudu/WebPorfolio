@@ -5,6 +5,8 @@ const home = document.querySelector(".introcontainer");
 const aboutMe = document.querySelector(".aboutmecontainer");
 const projectsContainer = document.querySelector(".projects");
 const contact = document.querySelector(".contactform");
+const github = document.querySelector("#githublogo");
+const linkedin = document.querySelector("#linkedinlogo");
 
 // to show side bar
 const dropdown = () => {
@@ -53,4 +55,16 @@ const scrollHome = () => {
     behavior:"smooth"
   });
 }
+
+
+// OPEN linkedIn & Github in new Tab
+const openLinkedin = () => {
+  window.open("https://www.linkedin.com/in/zubairu-awudu-888a90337/");
+}
+linkedin.addEventListener("click", openLinkedin);
+
+const openGithub = () => {
+  window.open("https://github.com/Zubbyawudu", "_blank");
+}
+github.addEventListener("click", openGithub);
 
