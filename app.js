@@ -7,6 +7,10 @@ const projectsContainer = document.querySelector(".projects");
 const contact = document.querySelector(".contactform");
 const github = document.querySelector("#githublogo");
 const linkedin = document.querySelector("#linkedinlogo");
+const myForm = document.querySelector("#myform");
+const submit = document.querySelector(".contactbtn");
+
+
 
 // to show side bar
 const dropdown = () => {
@@ -27,7 +31,7 @@ sideBarClose.addEventListener("click", closeSideBar);
 
 
 const scrollAboutMe = () => {
-  // aboutMe.scrollIntoView({behavior: "smooth"});
+  
   window.scrollTo({
     top:1000,
     behavior:"smooth"
@@ -35,18 +39,12 @@ const scrollAboutMe = () => {
 }
 const scrollProjects = () => {
   projectsContainer.scrollIntoView({behavior: "smooth"});
-  // window.scrollTo({
-  //   top:2600,
-  //   behavior:"smooth"
-  // });
+  
   
 }
 const scrollContact = () => {
   contact.scrollIntoView({behavior: "smooth"});
-  // window.scrollTo({
-  //   top:5100,
-  //   behavior:"smooth"
-  // });
+  
 }
 const scrollHome = () => {
   
@@ -67,4 +65,34 @@ const openGithub = () => {
   window.open("https://github.com/Zubbyawudu", "_blank");
 }
 github.addEventListener("click", openGithub);
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Initialize EmailJS with your public key
+  emailjs.init("q-HfW9kuDmAC_gNx8");
+
+  document
+    .getElementById("myform")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      const form = this; // Reference the form element
+      console.log(form);
+      const name = form.elements["name"].value;
+      const email = form.elements["email"].value;
+      const message = form.elements["messageInput"].value;
+
+      emailjs.sendForm("service_dir2dwv", "template_7xrou4m", form).then(
+        function (response) {
+          // console.log("SUCCESS!", response.status, response.text);
+          form.reset();
+          alert("Message sent successfully!");
+        },
+        function (error) {
+          // console.log("FAILED...", error);
+        }
+      );
+    });
+});
+
+
 

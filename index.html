@@ -1,89 +1,112 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
   </head>
   <body>
     <!------------------ NAV  -------- -->
-   <header>
-    <nav>
-      <div class="logo">ZUBAIRU AWUDU</div>
-      <div class="dropdown_logo">
-        <img src="icons/dropdownicon.png" alt="icon" class="dropicon_img">
-      </div>
-      <div class="sidebar">
-        <div class="sidebaritems1" onclick="scrollHome()">HOME</div>
-        <hr class="hrside">
-        <div class="sidebaritems" onclick="scrollAboutMe()">ABOUT</div>
-        <hr class="hrside">
-        <div class="sidebaritems" onclick="scrollProjects()">PROJECTS</div>
-        <hr class="hrside">
-        <div class="sidebaritems" onclick="scrollContact()">CONTACT</div>
-        <hr class="hrside">
-        
-        <div class="sidebaritems" id="sidebarclose">CLOSE
-          <i class="fa-solid fa-xmark"></i>
+    <header>
+      <nav>
+        <div class="logo">ZUBAIRU AWUDU</div>
+        <div class="dropdown_logo">
+          <img src="icons/dropdownicon.png" alt="icon" class="dropicon_img" />
         </div>
-       
-      </div>
-      <div class="navitems">
-        <div class="navlists" onclick="scrollHome()">HOME</div>
-        <div class="navlists" onclick="scrollAboutMe()">ABOUT</div>
-        <div class="navlists" onclick="scrollProjects()">PROJECTS</div>
-        <div class="navlists" onclick="scrollContact()">CONTACT</div>
-      </div>
+        <div class="sidebar">
+          <div class="sidebaritems1" onclick="scrollHome()">HOME</div>
+          <hr class="hrside" />
+          <div class="sidebaritems" onclick="scrollAboutMe()">ABOUT</div>
+          <hr class="hrside" />
+          <div class="sidebaritems" onclick="scrollProjects()">PROJECTS</div>
+          <hr class="hrside" />
+          <div class="sidebaritems" onclick="scrollContact()">CONTACT</div>
+          <hr class="hrside" />
 
-    </nav>
-   </header>
+          <div class="sidebaritems" id="sidebarclose">
+            CLOSE
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="navitems">
+          <div class="navlists" onclick="scrollHome()">HOME</div>
+          <div class="navlists" onclick="scrollAboutMe()">ABOUT</div>
+          <div class="navlists" onclick="scrollProjects()">PROJECTS</div>
+          <div class="navlists" onclick="scrollContact()">CONTACT</div>
+        </div>
+      </nav>
+    </header>
     <div class="supercontainer">
       <!-------------- INTRO --------- -->
       <div class="introcontainer">
         <div>
           <h1 class="introname">HI , I'M ZUBAIRU AWUDU</h1>
-  
         </div>
         <div class="introtext">
-          <p>I'm a passionate web developer dedicated to creating sleek, user-friendly websites that deliver exceptional experiences.</p>
+          <p>
+            I'm a passionate web developer dedicated to creating sleek,
+            user-friendly websites that deliver exceptional experiences.
+          </p>
         </div>
         <div>
           <button class="resumetbn">VIEW RESUME</button>
         </div>
       </div>
       <!------ ---- ABOUT ME ---- --  -->
-     
+
       <div class="aboutmecontainer">
-        
         <h1 class="aboutme">ABOUT ME</h1>
         <div class="aboutmebox">
           <div class="imgcontainer">
-            <img src="images/profile.JPG" alt="pic" class="propic">
+            <img src="images/profile.JPG" alt="pic" class="propic" />
           </div>
           <div class="aboutmetxt">
-            <p>Hello , I'm Zubairu Awudu an aspiring software developer who recently completed an accelerated full-stack web development program at Per Scholas. I have technical skills in front-end development (HTML, CSS, JavaScript, React) and back-end development (Node.js, Express, MongoDB), along with a degree in Development Communication that enhances my ability to collaborate and communicate effectively.</p>
-            <p>Throughout my career, I've had the opportunity to work on a variety of projects, each presenting unique challenges and opportunities for growth. I thrive on the continuous learning and problem-solving inherent in the tech industry.I'm comfortable in my ability in adapting to new technologies, as well as to collaborate with cross-functional teams, drive projects forward and deliver accurate results. I'm always looking for new challenges to take on.</p>
-  
-  
+            <p>
+              Hello , I'm Zubairu Awudu an aspiring software developer who
+              recently completed an accelerated full-stack web development
+              program at Per Scholas. I have technical skills in front-end
+              development (HTML, CSS, JavaScript, React) and back-end
+              development (Node.js, Express, MongoDB), along with a degree in
+              Development Communication that enhances my ability to collaborate
+              and communicate effectively.
+            </p>
+            <p>
+              Throughout my career, I've had the opportunity to work on a
+              variety of projects, each presenting unique challenges and
+              opportunities for growth. I thrive on the continuous learning and
+              problem-solving inherent in the tech industry.I'm comfortable in
+              my ability in adapting to new technologies, as well as to
+              collaborate with cross-functional teams, drive projects forward
+              and deliver accurate results. I'm always looking for new
+              challenges to take on.
+            </p>
           </div>
         </div>
-        
-
       </div>
 
       <!-------------------------- SKILLS ---------------------- -->
-     
+
       <div class="skillscontainer">
         <h1 class="skillshead">SKILLS</h1>
         <div class="skillssection">
@@ -99,30 +122,28 @@
             <div class="languages">Git</div>
           </div>
           <div class="equipimage">
-            <img src="images/5be21c2f8c3b5-93b501525e8b9d998f9fbb1b2aa725f1.png" alt="structure" class="equipimg">
+            <img
+              src="images/5be21c2f8c3b5-93b501525e8b9d998f9fbb1b2aa725f1.png"
+              alt="structure"
+              class="equipimg"
+            />
           </div>
         </div>
-        
       </div>
       <!----------------- PROJECTS--------------- -->
-      
+
       <div class="projects">
         <h1 class="projectshead">PROJECTS</h1>
         <div class="projectcard">
           <div class="project1">
             <div class="projectimg"></div>
             <div class="projecttxt">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae hic at esse. Illo rerum repudiandae, a vero iure eius, ipsam, neque quisquam alias voluptatibus ducimus eos quam aut libero?</p>
-
-              <button class="projectbtn">VIEW PROJECT</button>
-            </div>
-            
-
-          </div>
-          <div class="project1">
-            <div class="projectimg"></div>
-            <div class="projecttxt">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae hic at esse. Illo rerum repudiandae, a vero iure eius, ipsam, neque quisquam alias voluptatibus ducimus eos quam aut libero?</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                molestiae hic at esse. Illo rerum repudiandae, a vero iure eius,
+                ipsam, neque quisquam alias voluptatibus ducimus eos quam aut
+                libero?
+              </p>
 
               <button class="projectbtn">VIEW PROJECT</button>
             </div>
@@ -130,7 +151,12 @@
           <div class="project1">
             <div class="projectimg"></div>
             <div class="projecttxt">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae hic at esse. Illo rerum repudiandae, a vero iure eius, ipsam, neque quisquam alias voluptatibus ducimus eos quam aut libero?</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                molestiae hic at esse. Illo rerum repudiandae, a vero iure eius,
+                ipsam, neque quisquam alias voluptatibus ducimus eos quam aut
+                libero?
+              </p>
 
               <button class="projectbtn">VIEW PROJECT</button>
             </div>
@@ -138,71 +164,107 @@
           <div class="project1">
             <div class="projectimg"></div>
             <div class="projecttxt">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo molestiae hic at esse. Illo rerum repudiandae, a vero iure eius, ipsam, neque quisquam alias voluptatibus ducimus eos quam aut libero?</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                molestiae hic at esse. Illo rerum repudiandae, a vero iure eius,
+                ipsam, neque quisquam alias voluptatibus ducimus eos quam aut
+                libero?
+              </p>
 
               <button class="projectbtn">VIEW PROJECT</button>
             </div>
+          </div>
+          <div class="project1">
+            <div class="projectimg"></div>
+            <div class="projecttxt">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                molestiae hic at esse. Illo rerum repudiandae, a vero iure eius,
+                ipsam, neque quisquam alias voluptatibus ducimus eos quam aut
+                libero?
+              </p>
 
+              <button class="projectbtn">VIEW PROJECT</button>
+            </div>
           </div>
         </div>
-
       </div>
       <!------------------ CONTACT  --------    -->
       <div class="contactform">
         <h1 class="contacthead">CONTACT</h1>
-        <form>
-          <input type="text" placeholder="Name" name="name" required>
-          <input type="email" placeholder="Email" name="email" required>
-          <textarea id="messageInput" placeholder="Enter Your Message" rows="5" cols="40"></textarea>
+        <form id="myform">
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+            id="name"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+            id="email"
+          />
+          <textarea
+            id="messageInput"
+            name="messageInput"
+            placeholder="Enter Your Message"
+            rows="5"
+            cols="40"
+          ></textarea>
 
-          <button class="contactbtn">SUBMIT</button>
+          <button class="contactbtn" type="submit">SUBMIT</button>
         </form>
       </div>
-      
-      
-
-
-
-
     </div>
-   <!-- ------ -FOOTER ----------->
-   <footer>
-    <div class="socialslogo">
-      <div class="logocontainer">
-       <img src="https://www.freeiconspng.com/uploads/github-icon-9.png" alt="logo"class="logoimg" id="githublogo">
-       
+    <!-- ------ -FOOTER ----------->
+    <footer>
+      <div class="socialslogo">
+        <div class="logocontainer">
+          <img
+            src="https://www.freeiconspng.com/uploads/github-icon-9.png"
+            alt="logo"
+            class="logoimg"
+            id="githublogo"
+          />
+        </div>
+        <div class="logocontainer">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiPp2cwDYk9IdbOHki9InO8mP6QZcOBz2EvvSjrllsIo0nWwm3cV9geHAWES_Smu7UxY&usqp=CAU"
+            alt="logo"
+            class="logoimg"
+            id="linkedinlogo"
+          />
+        </div>
       </div>
-      <div class="logocontainer">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiPp2cwDYk9IdbOHki9InO8mP6QZcOBz2EvvSjrllsIo0nWwm3cV9geHAWES_Smu7UxY&usqp=CAU" alt="logo" class="logoimg" id="linkedinlogo">
-      </div>
-    </div>
-    <div class="footercontainer">
-      
-      
-      <div class="footernav">
-        <span  onclick="scrollHome()">HOME</span>
-        <span  onclick="scrollAboutMe()">ABOUT</span>
-        <span  onclick="scrollProjects()">PROJECTS</span>
-        <span  onclick="scrollContact()">CONTACT</span>
+      <div class="footercontainer">
+        <div class="footernav">
+          <span onclick="scrollHome()">HOME</span>
+          <span onclick="scrollAboutMe()">ABOUT</span>
+          <span onclick="scrollProjects()">PROJECTS</span>
+          <span onclick="scrollContact()">CONTACT</span>
+        </div>
+
+        <div class="footertxt">
+          <h3>ZUBAIRU AWUDU</h3>
+          <p>
+            As a passionate web developer, I specialize in crafting the
+            user-facing aspects of websites and web applications, contributing
+            to the overall success of the product.
+          </p>
+        </div>
       </div>
 
-      <div class="footertxt">
-        <h3>ZUBAIRU AWUDU</h3>
-        <p>As a passionate web developer, I specialize in crafting the user-facing aspects of websites and web applications, contributing to the overall success of the product.</p>
-  
-      </div>
-    </div>
-    
-    <hr>
-    <p class="copyright">&copy; 2024 All rights reserved by Zubairu Awudu</p>
-        
-   </footer>
-    
+      <hr />
+      <p class="copyright">&copy; 2024 All rights reserved by Zubairu Awudu</p>
+    </footer>
 
-
-
-  
-    <script src="app.js" async defer></script>
-    <script src="https://kit.fontawesome.com/2b7dbed510.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script>
+      src = "https://kit.fontawesome.com/2b7dbed510.js";
+      crossorigin = "anonymous";
+    </script>
   </body>
 </html>
