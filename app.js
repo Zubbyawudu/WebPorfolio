@@ -66,6 +66,7 @@ const openGithub = () => {
 }
 github.addEventListener("click", openGithub);
 
+// Email JS config
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize EmailJS with your public key
