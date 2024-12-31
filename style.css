@@ -248,7 +248,7 @@
     height: 5vh;
     margin: 10px;
     word-spacing: 10px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .footertxt{
     /* border: solid white; */
@@ -540,29 +540,29 @@
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   
   header{
-    border: solid black;
-    height: 8vh;
+    /* border: solid black; */
+    height: 5vh;
     position:sticky;
     top: 0px;
     z-index: 1;
     background-color: rgba(10, 10, 43, 0.995);
   }
   nav{
-    border: solid blue;
-    height: 6vh;
+    /* border: solid blue; */
+    height: 5vh;
     margin: 3px;
     display:flex;
     justify-content: space-between;
   }
   .logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 5vh;
     width: 40%;
     font-size: 25px;
     word-spacing: 12px;
   }
   .dropdown_logo{
-    border: solid blue;
+    /* border: solid blue; */
     height:5vh;
     margin-left: 52%;
 
@@ -818,28 +818,28 @@
 
 @media only screen and (min-width: 980px) and (max-width: 1023px){
   header{
-    border: solid rgb(88, 198, 113);
-    height: 8vh;
+    /* border: solid rgb(88, 198, 113); */
+    height: 6vh;
     position:sticky;
     top: 0px;
     z-index: 1;
     background-color: rgba(10, 10, 43, 0.995);
   }
   nav{
-    border: solid blue;
-    height: 6vh;
+    /* border: solid blue; */
+    height: 4vh;
     margin: 3px;
     display:flex;
     justify-content: space-between;
   }
   .logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 5vh;
     font-size: 25px;
     word-spacing: 12px;
   }
   .dropdown_logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 2vh;
     display: none;
   
@@ -849,6 +849,8 @@
     display: flex;
     justify-content: space-between;
     width: 40%;
+    margin-right: 20px;
+    margin-top:10px;
   
   }
   .navlists{
@@ -1076,37 +1078,39 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px){
   header{
-    border: solid rgba(208, 50, 92, 0.771);
-    height: 8vh;
+    /* border: solid rgba(208, 50, 92, 0.771); */
+    height: 6vh;
     position:sticky;
     top: 0px;
     z-index: 1;
     background-color: rgba(10, 10, 43, 0.995);
   }
   nav{
-    border: solid blue;
-    height: 6vh;
+    /* border: solid blue; */
+    height: 5vh;
     margin: 3px;
     display:flex;
     justify-content: space-between;
   }
   .logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 5vh;
     font-size: 25px;
     word-spacing: 12px;
   }
   .dropdown_logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 2vh;
     display: none;
   
   }
   .navitems{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-between;
     width: 35%;
+    margin-right: 20px;
+    margin-top: 8px;
   
   }
   .navlists{
@@ -1365,37 +1369,39 @@
 
 @media only screen and (min-width: 1200px){
   header{
-    border: solid rgba(155, 214, 29, 0.771);
-    height: 8vh;
+    /* border: solid rgba(155, 214, 29, 0.771); */
+    height: 6vh;
     position:sticky;
     top: 0px;
     z-index: 1;
     background-color: rgba(10, 10, 43, 0.995);
   }
   nav{
-    border: solid blue;
-    height: 6vh;
+    /* border: solid blue; */
+    height: 5vh;
     margin: 3px;
     display:flex;
     justify-content: space-between;
   }
   .logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 5vh;
     font-size: 25px;
     word-spacing: 12px;
   }
   .dropdown_logo{
-    border: solid blue;
+    /* border: solid blue; */
     height: 2vh;
     display: none;
   
   }
   .navitems{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
     width: 28%;
+    margin-top: 8px;
   
   }
   .navlists{
@@ -1748,7 +1754,7 @@ a:hover{
   transition: all 0.5s ease-in-out;
   scale: 1.1;
 }
-.resumetbn,.contactbtn{
+.resumetbn,.contactbtn,.logoimg{
   cursor: pointer;
 }
 .projecttxt{
