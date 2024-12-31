@@ -521,7 +521,7 @@
     height: 3vh;
     margin: 10px;
     word-spacing: 10px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .footertxt{
     /* border: solid white; */
@@ -799,7 +799,7 @@
       height: 3vh;
       margin: 10px;
       word-spacing: 10px;
-      font-size: 18px;
+      font-size: 15px;
     }
     .footertxt{
       /* border: solid white; */
@@ -1343,7 +1343,7 @@
     height: 3vh;
     margin: 10px;
     word-spacing: 10px;
-    font-size: 18px;
+    font-size: 15px;
     width: 40%;
     text-align: start;
   }
@@ -1654,7 +1654,7 @@
     height: 3vh;
     margin: 10px;
     word-spacing: 10px;
-    font-size: 18px;
+    font-size: 15px;
     width: 50%;
     text-align: start;
      margin-left: 5%;
